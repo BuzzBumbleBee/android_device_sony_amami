@@ -16,7 +16,7 @@
 include device/sony/rhine-common/BoardConfigCommon.mk
 
 # inherit from the proprietary version
-#-include vendor/sony/amami/BoardConfigVendor.mk
+include vendor/sony/amami/BoardConfigVendor.mk
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := D5503,amami,anami
